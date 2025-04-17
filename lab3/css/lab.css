@@ -7,3 +7,19 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  body{
+    text-align: center
+  }
+
+  #lab3styles {
+    width: 500px;
+    height: 450px;
+  }
+
+  #background1{
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #888;
+    background-color: #dcc2c2;
+  }
