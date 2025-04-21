@@ -28,3 +28,7 @@ body{
   border: solid 1px #888;
   background-color: #ffe18d;
 }
+
+.side{
+text-align: left;
+}
