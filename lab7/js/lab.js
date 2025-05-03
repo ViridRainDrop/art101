@@ -3,7 +3,7 @@
 // Date: 05/03/2025
 
 
-// sortUserName
+// sortUserName - do function that take the input and sort them in order
 function sortUserName(){
     var userName = window.prompt("Hi, Please tell me your name so I can fix it.");
     console.log("userName =", userName)
@@ -13,7 +13,7 @@ function sortUserName(){
     console.log("name Array =", nameArray);
 
     //Sort Array
-    var nameArraySort = userArray.sort();
+    var nameArraySort = nameArray.sort();
     console.log("userName Sort =", nameArraySort);
 
     //Join Array Back to String
