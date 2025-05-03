@@ -13,7 +13,7 @@ function sortUserName(){
     console.log("name Array =", nameArray);
 
     //Sort Array
-    var nameArraySort = userName.sort();
+    var nameArraySort = userArray.sort();
     console.log("userName Sort =", nameArraySort);
 
     //Join Array Back to String
@@ -25,4 +25,4 @@ function sortUserName(){
 }
 
 //output
-document.writenln("Oh hey, I've fixed your name: ", sortUserName(), "</br");
+document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br");
