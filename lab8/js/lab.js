@@ -25,3 +25,9 @@ var result = array.map(function(x){
 
 //Should Print number after x ** 0.5
 console.log("Squareroot of Array:", result);
+
+//map result data
+var mapResults = "Your map results here";
+
+// Use jQuery to select the element by its ID and set the HTML content
+$("#output").html(mapResults);
