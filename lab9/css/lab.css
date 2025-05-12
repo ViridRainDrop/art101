@@ -1,0 +1,12 @@
+.special {
+    background-color: rgb(98, 98, 117);
+    border: dotted 10px rgb(141, 123, 123);
+    color: pink;
+    font-weight: bold;
+}
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
