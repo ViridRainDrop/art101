@@ -5,6 +5,24 @@
     background-color: #DDD8C4;
   }
 
-#input {
+h1, h2 {
+    color: #ceaf61;
+}
 
+#output {
+    margin-top: 15px;
+}
+
+.god-energy {
+    font-size: 1.2em;
+    color: #9ed8ff;
+    font-weight: bold;
+}
+
+#innerput{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #44365a;
+    color: #ceaf61;
 }
