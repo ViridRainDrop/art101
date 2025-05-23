@@ -20,11 +20,12 @@ function sortGod(str) {
     }
 }
 
-// Create a button
+/* Create a button an when the button wa click it will determine input and land a condition, which give it a name with in the String.
+    That name will then store in the const "god", and when we output "god" it will print the name that was sorted. */
 $(document).ready(function () {
     $("#button").click(function () {
         const name = $("#input").val();
         const god = sortGod(name);
-        $("#output").append('<p class=god-energy>The Sorting Pray has sorted you into <strong>' + god + '</strong>!</p>');
+        $("#output").append('<p class=god-energy>The goddess that had blessed you are: <strong>' + god + '</strong>!</p>');
     });
 });
