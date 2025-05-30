@@ -15,19 +15,26 @@ console.log("Is 2 Even? ", isEven(2));
 array = [100, 95, 68, 26, 33]
 console.log("My array", array);
 
-var result = array.map(isEven);
+var evenRes = array.map(isEven);
 //Should Print out result
-console.log("Test of evennes of arra:", result);
+console.log("Test of evennes of array:", evenRes);
 
-var result = array.map(function(x){
+var SquRes = array.map(function(x){
     return x ** 0.5;
 })
 
 //Should Print number after x ** 0.5
-console.log("Squareroot of Array:", result);
+console.log("Squareroot of Array:", SquRes);
 
 //map result data
-var mapResults = "Your map results here";
+var mapResults = "<h2>Your map results here: </h2>" + 
+//Debugged
+
+                "<div id=bold> Original Array: </div>" + array.join(",") +
+                "<div id=bold> Even Array: </div>" + evenRes.join(",") +
+                "<div id=bold> Squareroot Array: </div>" + SquRes.join(",");
 
 // Use jQuery to select the element by its ID and set the HTML content
+$(document).ready(function() {
 $("#output").html(mapResults);
+})
