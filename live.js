@@ -15,3 +15,26 @@ function FizzBuzz() {
     $("#output").append("<p>" + str + "</p>");
 }
 }
+
+const ajaxobj = {
+ url : "https://yesno.wtf/api",
+// data:{},
+  type:"GET",
+  dataType:"json"
+}
+
+$("#sub").click(function(){
+  $.ajax(ajaxobj)
+//console.log("Click!");
+  .done(function(data){
+    console.log("Success!");
+  console.log(data);
+    let answer = data.answer
+    let imageURL = data.image;
+    let imageHTML = `<img src="${imageURL}">`;
+    $("#ouput").html("<h1>" + answer);
+})
+  .fail(function( xhr, status, errorThrown ){
+  console.log(errorThrown + " Status:" + status ); 
+  });
+})
