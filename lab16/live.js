@@ -5,7 +5,7 @@
 $(document).ready(function() {
     // Avoids CORS restrictions。
     //  WHY DOES IT HAD RESTRICTION THAT WAS NEVER MENTIONED1!!!
-    //  I have to ask people around, Credited to an UCSD Student, a friend of mine, who helped me here is is github: https://github.com/ViolentGarden
+    //  I have to ask people around, Credited to an UCSD Student, a friend of mine, who helped me here is is github: https://github.com/ViolentGarden By: Siyan L.
     const corsProxy = "https://api.allorigins.win/get?url=";
     const xkcdUrl = "https://xkcd.com/info.0.json"; // It is automatically links Latest comic
     
