@@ -1,0 +1,34 @@
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 1px #888;
+    background-color: #4199a9;
+    border-radius: 5px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#output h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#output p {
+    font-style: italic;
+    color: #7f8c8d;
+}
